@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Animation Plugin-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!---Owl-carousel CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+      <!--Nav-->
+      <nav class="nav__container">
+        <div class="nav__inner">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#story">STORY</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="landing" id="home">
+        <!--Landing-->
+       <div class="landing__inner">
+        <div class="landing__container container">
+            <div class="landing__left">
+                <div  data-aos="fade-right" class="landing__header1">Dawn & Dusk</div>
+                <div data-aos="fade-left" class="landing__text">
+                   is a single player 2D survival game that relies on finding food and fighting off enemies in order to survive.
+                   A random character will be created and spawned into a random environment when the game starts.  Each character
+                   will have different skills  and each environment will present the player with different challenge. The player have
+                   to look out for items all around the island and utilize them to have a better chance to survive.
+                </div>
+            </div>
+            <div data-aos="fade-down" data-aos-duration="3000" class="landing__right">
+                <img src="/assets/char/c1.png" alt="">
+                <img src="/assets/char/c3.png" alt="">
+                <img src="/assets/char/c2.png" alt="">
+            </div>
+        </div>
+       </div>
+    </section>
+    <!--Welcome-->
+    <section class="welcome" id="story">
+        <div class="welcome__container">
+            <div class="welcome__header headline" data-aos="zoom-in">
+                Welcome to Dawn & Dusk
+            </div>
+            <div class="welcome__text" data-aos="zoom-in">
+                The protogonist came from a faraway island in discovering of mystery treasures. Unfortunately, a heavy downpour happened during the ship ride, towering walls of water, driven by powerful winds, slam into the ship. The ship heaved upward and vibrated in the heaviest water, crashed onto an island...
+            </div>
+            <div class="welcome__group">
+                <img data-aos="fade-right" data-aos-duration="1500" src="/assets/char/mainchar.png" alt="">
+                <img data-aos="fade-left" data-aos-duration="1500" src="/assets/char/goddess.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!--About-->
+    <section class="about" id="about">
+        <div class="about__container">s
+            <div class="about__header headline" data-aos="zoom-in">About Dawn & Dusk</div>
+            <div class="about__text" data-aos="zoom-in">
+                After the shipwrecked, the journey starts with the protagonist being on an abandoned island.
+                The protagonist has to survive and try to find a way to get off the island. 
+                The player has to find food and fight off monsters that appeared to survive.
+                Upon exploring the island, the player realises that the island has certain secrets and has to slowly uncover them.
+            </div>
+        </div>
+    </section>
+    <!--Gallery-->
+    <section class="gallery " id="gallery">
+        <div class="gallery__container">
+            <div class="gallery__header headline" data-aos="zoom-in">Gallery</div>
+            <div class="gallery__img__group">
+            </div>
+        </div>
+    </section>
+
+    <!--Card-->
+    <section class="card">
+        <div class="card__container">
+            <div class="card__header headline" data-aos="zoom-in">Our Team</div>
+            <div class="card__wrapper owl-carousel owl-theme">
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Us-->
+    <section class="contact-us" id="contact">
+        <div class="contact-us__container">
+            <div class="contact-us__header headline" data-aos="zoom-in">Contact Us</div>
+            <div class="contact-us__inner">
+                <input type="text" placeholder="Enter your name">
+                <input type="text" placeholder="Enter your email"><br/>
+                <textarea placeholder="Message" rows="5" cols="3"></textarea>
+                <button>Send</button>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+        <div class="footer_container">
+            <span>&copy;Copyright, FYP-21-S3-12. <br/>Designed & developed by Xinlong Wang</span>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+     <!--Owl Carousel Js file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="main.js"></script>
+    <script src="utils.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  
+</body>
+</html>

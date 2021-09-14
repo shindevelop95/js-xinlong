@@ -1,0 +1,24 @@
+{
+  "name": "fyp-marketing-website-master",
+  "version": "1.0.0",
+  "description": "marketing website",
+  "main": "main.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shindevelop95/js-xinlong.git"
+  },
+  "author": "xinlong wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shindevelop95/js-xinlong/issues"
+  },
+  "homepage": "https://github.com/shindevelop95/js-xinlong#readme",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0"
+  }
+}
