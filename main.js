@@ -86,33 +86,65 @@ const members = [
     },
 ]
 
+const createImage = function(imgPath){
+    return new Promise(function(resolve,reject) {
+        const img = document.createElement('img');
+        img.src = imgPath;
+        img.setAttribute("data-aos","fade-up")
+        img.addEventListener('load', function(){
+           resolve(img)
+        });
 
+        img.addEventListener('error', function(){
+            reject(new Error('Image not found'))
+        })
+    })
+}
+/*
 
 let aboutInfo = '';
+const loadNPause = async function(a){
+    console.log("display A", a)
+    try{
+        let img = await createImage(a.img)
+        console.log("show me the image here", img)
+            aboutInfo =
+            `<div class="about__info ${a.shiftLeft} ${a.shiftRight} ${a.flexReverse}">
+                <div class="about__left">
+                    ${img}
+                </div>
+                <div class="about__right ${a.moveLeft}">
+                    <div class="about__header2">${a.title}</div>
+                    <div class="about__inner__text" data-aos="fade-down" data-aos-duration="1500">${a.text}</div>
+                </div>
+            </div>
+        `
+        getInfo.insertAdjacentHTML('afterend',aboutInfo)
+       
+      
+    }catch(e){
+        console.log(e)
+    }
+}
+
 about.forEach(a => {
-    aboutInfo =
-    `<div class="about__info ${a.shiftLeft} ${a.shiftRight} ${a.flexReverse}">
-        <div class="about__left">
-            <img src=${a.img} data-aos="fade-up"  data-aos-duration="1500" alt="">
-        </div>
-        <div class="about__right ${a.moveLeft}">
-            <div class="about__header2">${a.title}</div>
-            <div class="about__inner__text" data-aos="fade-down" data-aos-duration="1500">${a.text}</div>
-        </div>
-    </div>
-`
-getInfo.insertAdjacentHTML('afterend',aboutInfo)
+    loadNPause(a)
 })
 
+*/
+
+
+
 /*Gallery Section*/
+/*
 let gImg = ' ';
 for(let i = 1; i <=6; i++){
-    gImg = `<img data-aos="zoom-in" src="assets/gallery/g${i}.JPG"/>`
+    gImg = `<img data-aos="zoom-in" alt="" src="assets/gallery/g${i}.JPG"/>`
 getImg.insertAdjacentHTML('afterbegin',gImg);
-}
+}*/
 /*Card Section*/
 let mem = ' '
-members.forEach(member => {
+/*members.forEach(member => {
     mem = `<div class="card__content item">
                 <img src=${member.img ? member.img:member.abImg} alt="">
                 <h2>${member.stdName}</h2>
@@ -121,7 +153,7 @@ members.forEach(member => {
                 <p>${member.email}</p>
             </div>`
 getCard.insertAdjacentHTML('afterbegin',mem)
-})
+})*/
 
 
 
