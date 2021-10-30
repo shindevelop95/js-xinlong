@@ -68,7 +68,7 @@
 83C:\Users\User\Desktop\fyp-marketing-website-master\node_modules\merge2\package.json132760888798175461 0
 88C:\Users\User\Desktop\fyp-marketing-website-master\node_modules\abortcontroller-polyfill132760888718786672 1
 86C:\Users\User\Desktop\fyp-marketing-website-master\node_modules\postcss-modules-values132760888780791961 1
-55C:\Users\User\Desktop\fyp-marketing-website-master\dist132761484002476149 1
+55C:\Users\User\Desktop\fyp-marketing-website-master\dist132761951732979709 1
 95C:\Users\User\Desktop\fyp-marketing-website-master\node_modules\core-js\internals\array-fill.js121436361000000000 0
 113C:\Users\User\Desktop\fyp-marketing-website-master\node_modules\url\node_modules\querystring\test\common-index.js130031394420000000 0
 91C:\Users\User\Desktop\fyp-marketing-website-master\node_modules\to-fast-properties\index.js131414903720000000 0
@@ -81,7 +81,7 @@
 94C:\Users\User\Desktop\fyp-marketing-website-master\node_modules\es-abstract\2020\CreateHTML.js121436361000000000 0
 87C:\Users\User\Desktop\fyp-marketing-website-master\node_modules\core-js\es\math\tanh.js121436361000000000 0
 87C:\Users\User\Desktop\fyp-marketing-website-master\node_modules\utility-types\README.md121436361000000000 0
-61C:\Users\User\Desktop\fyp-marketing-website-master\index.html132761480598632381 0
+61C:\Users\User\Desktop\fyp-marketing-website-master\index.html132761948608107565 0
 104C:\Users\User\Desktop\fyp-marketing-website-master\node_modules\string.prototype.trimstart\test\tests.js121436361000000000 0
 85C:\Users\User\Desktop\fyp-marketing-website-master\node_modules\punycode\package.json132760888772015443 0
 103C:\Users\User\Desktop\fyp-marketing-website-master\node_modules\string.prototype.trimstart\package.json132760888756496948 0
@@ -6075,7 +6075,7 @@
 82C:\Users\User\Desktop\fyp-marketing-website-master\node_modules\lodash\_hashSet.js121436361000000000 0
 102C:\Users\User\Desktop\fyp-marketing-website-master\node_modules\postcss-reduce-transforms\CHANGELOG.md121436361000000000 0
 115C:\Users\User\Desktop\fyp-marketing-website-master\node_modules\caniuse-lite\data\features\native-filesystem-api.js121436361000000000 0
-66C:\Users\User\Desktop\fyp-marketing-website-master\dist\index.html132761484002296612 0
+66C:\Users\User\Desktop\fyp-marketing-website-master\dist\index.html132761951732945157 0
 128C:\Users\User\Desktop\fyp-marketing-website-master\node_modules\css-modules-loader-core\node_modules\supports-color\package.json132760888830788210 0
 119C:\Users\User\Desktop\fyp-marketing-website-master\node_modules\sharp\vendor\8.10.6\include\libxml2\libxml\xmlexports.h132612604640000000 0
 107C:\Users\User\Desktop\fyp-marketing-website-master\node_modules\postcss-modules\node_modules\source-map\lib132760888193813788 1
